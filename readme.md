@@ -4,10 +4,8 @@ Use to recrd videos and images in python
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
-pip3 install opencv-python
+sudo curl -s https://raw.githubusercontent.com/abdulkabeer34/camera-recorder/refs/heads/main/start.sh | bash 
 ```
 
 ## Usage
