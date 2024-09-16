@@ -28,6 +28,15 @@ run this program by giving parameters and there name before the parameter with "
  --image
 ```
 
+# Formate Supported
+```python
+ # for videos
+  ".avi"
+
+ # for images
+  "any format"
+```
+
 # Optional Paramters 
 ```python
  ["--duration","--delay","--path"]
