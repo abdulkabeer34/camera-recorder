@@ -28,7 +28,7 @@ run this program by giving parameters and there name before the parameter with "
  --image
 ```
 
-# Formate Supported
+# Format Supported
 ```python
  # for videos
   ".avi"
