@@ -75,7 +75,9 @@ def video_capture(duration,path):
                 
                 for _frame in frames:
                   out.write(_frame)
-                  print(f"video saved in {path}")    
+                directory = os.path.splitext(path)[0].split("/")
+                directory = "/".join(directory[:-1]) if len(directory[:-1]) > 1 else "/"
+                print(f"image saved in {directory}")
                 out.release()
                 break
 
